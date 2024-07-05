@@ -17,6 +17,7 @@ a {
     img {
             display: block;
             max-width: 100%;
+                object-fit: cover;
 }
 .container{
     width:100%;
@@ -164,11 +165,13 @@ flex-direction: row;
 
 
 .phone-number {
+    display: flex;
     color: #434455;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
+    margin-left:156px;
   
 }
 
@@ -182,10 +185,16 @@ flex-direction: row;
 
 .section-first {
     background-color: #2E2F42;
-    text-align: center;
+    display:flex;
+    flex-direction: column;
 }
 
 .big-title {
+    display: block;
+    height: 120px;
+    width: 497px;
+    margin-top: 188px;
+    margin-left:470px;
     color: #FFFFFF;
     font-weight: 700;
     font-size: 56px;
@@ -193,10 +202,10 @@ flex-direction: row;
     text-align: center;
     line-height: 1.07;
     letter-spacing: 0.02em;
-
 }
 
 .button {
+
     background-color: #4D5AE5;
     color: #FFFFFF;
     font-size: 16px;
@@ -204,6 +213,12 @@ flex-direction: row;
     cursor: pointer;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    height: 56px;
+    width:169px;
+    margin-left:636px;
+    margin-top:48px;
+    margin-bottom:188px;
+
 
 }
 
