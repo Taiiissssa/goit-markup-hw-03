@@ -20,7 +20,6 @@ a {
 }
 .container{
     width:100%;
-    max-width: 1158px;
     margin:0;
 }
 body {
@@ -37,12 +36,15 @@ h1, h2, h3, h4, h5, h6, p {
 
 header {
     color: #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
 }
 header,footer{
-    width: 100%;
+    display: flex;
+    flex-direction: row;
 }
 
 header .logo-web {
+    display: flex;
     color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -50,6 +52,19 @@ header .logo-web {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-left:156px;
+    margin-right: 76px;
+    margin-top:24px;
+    margin-bottom:24px;
+}
+.header-links{
+    display: flex;
+    padding-right:332px ;
+    margin-top: 24px;
+        margin-bottom: 24px;
+}
+.header-links li{
+    margin-right: 40px;
 }
 
 header .logo-studio {
@@ -63,9 +78,19 @@ header .logo-studio {
 
 address {
     font-style: normal;
+    
+}
+.container-header{
+    display: flex;
+        flex-direction: row;
+}
+.navigation{
+display: flex;
+flex-direction: row;
 }
 
 .navigation .studio-link {
+    display: flex;
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
@@ -92,6 +117,8 @@ address {
     font-weight: 500;
     letter-spacing: 0.02em;
     line-height: 1.5;
+    display: flex;
+    
 }
 
 .navigation .portfolio-link:hover {
@@ -104,12 +131,25 @@ address {
     font-weight: 500;
     letter-spacing: 0.02em;
     line-height: 1.5;
+    display: flex;
 }
 
 .navigation .contacts-link:hover {
     color: #404BBF;
 }
-
+.address{
+    display: flex;
+    flex-direction: row;
+}
+.address ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 24px;
+        margin-bottom: 24px;
+}
+.address li{
+    padding-right: 40px;
+}
 .email-address {
     color: #434455;
     font-weight: 400;
@@ -129,6 +169,7 @@ address {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
+  
 }
 
 .email-address:hover {
