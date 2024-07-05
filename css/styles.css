@@ -239,9 +239,13 @@ flex-direction: row;
 .list-benefits{
     display: flex;
     margin-left:156px;
+    margin-right: 156px;
 }
 .punkt{
     flex-basis:264px;
+    margin-left: 24px;
+    margin-top:120px ;
+    margin-bottom: 120px;
 }
 .title-second {
     font-size: 20px;
@@ -259,6 +263,7 @@ flex-direction: row;
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align:left;
+    margin-bottom: 8px;
 }
 
 .description {
@@ -267,27 +272,56 @@ flex-direction: row;
     color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: left;
 }
 
 .section-three {
     background-color: #F4F4FD;
+    padding-top: 120px;
+    
 }
 
 .one-member {
     background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 264px;
+    align-items:center;
+}
+.one-member img{
+    width: 100%;
+    height:auto;
 }
 
 .introduction {
     text-transform: capitalize;
     font-size: 36px;
     font-weight: 700;
-    text-align: center;
+    margin-left: 639px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2E2F42;
     font-family: 'Roboto', sans-serif;
 }
+.introduction-two{
+    text-transform: capitalize;
+        font-size: 36px;
+        font-weight: 700;
+        margin-left: 639px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+        font-family: 'Roboto', sans-serif;
+            padding-top: 120px;
 
+}
+.team-members{
+    display: flex;
+    margin-top:72px;
+        margin-left:156px;
+        gap:24px;
+}
 .their-name {
     font-size: 20px;
     font-weight: 500;
@@ -295,6 +329,8 @@ flex-direction: row;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-top:32px;
+    margin-bottom:8px;
 }
 
 .their-job {
@@ -303,7 +339,15 @@ flex-direction: row;
     color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-bottom:32px;
 
+}
+.section-four{
+    display: flex;
+        flex-direction: column;
+}
+.list-portfolio{
+    display: flex;
 }
 
 .footer-page {
