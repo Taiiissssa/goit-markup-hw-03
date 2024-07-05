@@ -40,7 +40,7 @@ header {
     color: #E7E9FC;
     border-bottom: 1px solid #E7E9FC;
 }
-header,footer{
+header{
     display: flex;
     flex-direction: row;
 }
@@ -378,8 +378,11 @@ flex-direction: row;
     padding-top: 8px;
     padding-bottom:32px;
 }
+
 .footer-page {
     background-color: #2E2F42;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer-web {
@@ -390,7 +393,11 @@ flex-direction: row;
     font-family: 'Raleway', sans-serif;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    margin-top:100px;
+    margin-bottom:16px;
+        margin-left: 156px;
 }
+
 
 .footer-studio {
     color: #F4F4FD;
@@ -409,4 +416,10 @@ flex-direction: row;
     letter-spacing: 0.02em;
     line-height: 1.5;
     font-family: 'Raleway', sans-serif;
+    display: flex;
+        margin-left: 156px;
+}
+.footer-text{
+    justify-content: left;
+    width: 264px;
 }
