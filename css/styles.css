@@ -55,6 +55,7 @@ header .logo-web {
     text-transform: uppercase;
     display: block;
     margin-left: 76px;
+    margin-right: 76px;
 }
 .header-links{
     display: flex;
@@ -69,7 +70,6 @@ header .logo-web {
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
-    margin-right: 76px;
 }
 
 address {
@@ -184,7 +184,7 @@ address {
     min-width: 169px;
     display: block;
     border: none;
-    height: 59px;
+    height: 56px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 16px;
@@ -254,6 +254,9 @@ address {
     background-color: #F4F4FD;
     padding: 120px 0;
 }
+.worker{
+    padding: 32px 0;
+}
 
 .one-member {
     background-color: #FFFFFF;
@@ -268,6 +271,7 @@ address {
 .port-list{
     background-color: white;
     display: block;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .introduction {
@@ -305,7 +309,6 @@ address {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    margin-top:32px;
     margin-bottom:8px;
     text-align: center;
 }
@@ -316,7 +319,6 @@ address {
     color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom:32px;
     text-align: center;
 
 }
