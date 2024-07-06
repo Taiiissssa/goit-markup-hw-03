@@ -353,8 +353,7 @@ align-items: center;
 
 .footer-page {
     background-color: #2E2F42;
-    display: flex;
-    flex-direction: column;
+    padding: 100px 0;
 }
 
 .footer-web {
@@ -365,9 +364,9 @@ align-items: center;
     font-family: 'Raleway', sans-serif;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    margin-top:100px;
-    margin-bottom:16px;
     margin-left: 156px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 
