@@ -34,6 +34,7 @@ h1, h2, h3, h4, h5, h6, p {
 .container{
     width: 1158px;
     padding:0 15px ;
+    margin: 0 auto;
 }
 .header-container{
     display: flex;
@@ -72,7 +73,6 @@ header .logo-studio {
 }
 
 address {
-    font-style: normal;
     margin-left: auto;
 }
 .navigation{
@@ -159,7 +159,6 @@ address {
 .section-one{
     display: flex;
     flex-direction: column;
-    flex-shrink: 0;
 }
 .big-title {
     width:496px ;
@@ -231,7 +230,6 @@ address {
 .list-benefits{
     margin-left:156px;
 }
-
 .description {
     font-weight: 400;
     font-size: 16px;
