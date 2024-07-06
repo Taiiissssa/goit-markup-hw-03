@@ -211,7 +211,7 @@ address {
         overflow: hidden !important;
         clip: rect(0, 0, 0, 0) !important;
         border: 0 !important;
-    }
+}
 
 .section-second ul{
     display: flex;
@@ -293,8 +293,8 @@ address {
     letter-spacing: 0.02em;
     color: #2E2F42;
     font-family: 'Roboto', sans-serif;
-    padding-top: 120px;
     text-align: center;
+    margin-bottom: 72px;
 
 }
 .team-members{
@@ -322,21 +322,29 @@ address {
     text-align: center;
 
 }
+.section-four{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 .list-portfolio{
     display:flex;
     gap:24px;
+    row-gap: 48px
     margin-left:0;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-bottom: 120px;
 }
 .types-portfolio{
-    margin-top:72px ;
     flex-shrink: 0;
     flex-basis:360px ;
     border: 1px solid #E7E9FC;
     position: relative;
+}
+.app-function{
+    padding:32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none
 }
 .types-portfolio img{
     width: 100%;
@@ -346,16 +354,12 @@ address {
 .their-name-port{
     display: inline-block;
     text-align: left;
-    padding-top: 32px;
-    padding-left: 16px;
     font-weight: 500;
+    margin-bottom: 8px;
     
 }
 .their-descrip{
     text-align: left;
-    padding-top: 8px;
-    padding-bottom: 32px;
-    padding-left:16px;
 }
 .footer-page {
     background-color: #2E2F42;
