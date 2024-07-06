@@ -334,6 +334,7 @@ address {
     margin-left:0;
     flex-wrap: wrap;
     justify-content: space-between;
+    column-gap: 24px;
 }
 .types-portfolio{
     flex-shrink: 0;
