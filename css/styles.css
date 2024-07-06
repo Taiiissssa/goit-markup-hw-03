@@ -15,8 +15,8 @@ a {
 }
     img {
     display: block;
+    height: auto;
     max-width: 100%;
-    object-fit: cover;
 }
 
 body {
@@ -52,7 +52,8 @@ header .logo-web {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-right: 76px;
+    display: block;
+    margin-left: 76px;
 }
 .header-links{
     display: flex;
@@ -169,6 +170,8 @@ address {
     line-height: 1.07;
     letter-spacing: 0.02em;
     padding-bottom: 48px;
+    display: block;
+    text-align: center;
 }
 .button {
     background-color: #4D5AE5;
@@ -206,7 +209,7 @@ address {
     flex-shrink: 0;
 }
 .punkt{
-    width: calc((100% - 72px) / 4);
+    width: calc((1128px - 72px) / 4);
 }
 .title-second {
     font-size: 20px;
@@ -240,6 +243,7 @@ address {
 
 .section-three {
     background-color: #F4F4FD;
+    padding: 120px 0;
 
 }
 
@@ -249,8 +253,8 @@ address {
  
 }
 .one-member img{
-    width: 100%;
-    height:auto;
+        display: block;
+        max-width: 100%;
    
 }
    
@@ -267,6 +271,7 @@ address {
     color: #2E2F42;
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    margin-bottom: 72px;
 }
 .introduction-two{
     text-transform: capitalize;
@@ -282,7 +287,9 @@ address {
 }
 .team-members{
     display: flex;
-    gap:24px;
+    gap: 24px;
+    margin-left: 156px;
+    flex-basis: 264px;
 }
 .their-name {
     font-size: 20px;
@@ -293,6 +300,7 @@ address {
     text-transform: capitalize;
     margin-top:32px;
     margin-bottom:8px;
+    text-align: center;
 }
 
 .their-job {
@@ -302,6 +310,7 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom:32px;
+        text-align: center;
 
 }
 .types-portfolio{
