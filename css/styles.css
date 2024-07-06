@@ -203,14 +203,14 @@ address {
     padding: 120px 0;
 }
 .visually-hidden {
-        position: absolute !important;
-        width: 1px !important;
-        height: 1px !important;
-        margin: -1px !important;
-        padding: 0 !important;
-        overflow: hidden !important;
-        clip: rect(0, 0, 0, 0) !important;
-        border: 0 !important;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
 }
 
 .section-second ul{
@@ -239,6 +239,7 @@ address {
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align:left;
+    margin-bottom: 8px;
 }
 
 .description {
@@ -329,8 +330,7 @@ address {
 
 .list-portfolio{
     display:flex;
-    gap:24px;
-    row-gap: 48px
+    row-gap: 48px;
     margin-left:0;
     flex-wrap: wrap;
     justify-content: space-between;
