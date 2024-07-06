@@ -209,6 +209,7 @@ address {
 }
 .punkt{
     width: calc((1128px - 72px) / 4);
+    flex-shrink: 0;
 }
 .title-second {
     font-size: 20px;
@@ -227,9 +228,7 @@ address {
     color: #2e2f42;
     text-align:left;
 }
-.list-benefits{
-    margin-left:156px;
-}
+
 .description {
     font-weight: 400;
     font-size: 16px;
@@ -242,7 +241,6 @@ address {
 .section-three {
     background-color: #F4F4FD;
     padding: 120px 0;
-
 }
 
 .one-member {
@@ -253,11 +251,11 @@ address {
 .one-member img{
         display: block;
         max-width: 100%;
-   
 }
    
 .port-list{
     background-color: white;
+    display: block;
 }
 
 .introduction {
@@ -286,7 +284,6 @@ address {
 .team-members{
     display: flex;
     gap: 24px;
-    margin-left: 156px;
     flex-basis: 264px;
 }
 .their-name {
@@ -308,12 +305,11 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom:32px;
-        text-align: center;
+    text-align: center;
 
 }
 .types-portfolio{
     margin-top:72px ;
-    margin-right: 24px;
     flex-shrink: 0;
 }
 .their-name-port{
@@ -321,10 +317,7 @@ address {
 }
 .their-descrip{
     text-align: left;
-  
-
 }
-
 .footer-page {
     background-color: #2E2F42;
 }
