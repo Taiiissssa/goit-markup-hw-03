@@ -211,12 +211,12 @@ align-items: center;
     padding: 120px 0;
 }
 .section-second ul{
-    gap:24px;
+    display: flex;
+    gap: 24px;
     flex-direction: row;
 }
 
 .list-benefits{
-    display: flex;
 }
 .punkt{
     width: calc((100%-(3*24)px)/ 4);
@@ -254,7 +254,6 @@ align-items: center;
     background-color: #F4F4FD;
     padding-top: 120px;
     padding-bottom: 120px;
-    
 }
 
 .one-member {
@@ -368,7 +367,7 @@ align-items: center;
     letter-spacing: 0.03em;
     margin-top:100px;
     margin-bottom:16px;
-        margin-left: 156px;
+    margin-left: 156px;
 }
 
 
