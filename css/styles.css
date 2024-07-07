@@ -29,7 +29,6 @@ body {
 }
 h1, h2, h3, h4, h5, h6, p {
     margin:0;
-    margin: 0 auto;
 }
 .container{
     width: 1158px;
@@ -54,7 +53,6 @@ header .logo-web {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     display: block;
-    margin-left: 76px;
     margin-right: 76px;
 }
 .header-links{
@@ -168,9 +166,11 @@ address {
     line-height: 60px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
     display: block;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .button {
     background-color: #4D5AE5;
@@ -377,7 +377,6 @@ address {
     line-height: 1.17;
     letter-spacing: 0.03em;
     display: block;
-    margin-left: 156px;
     display: inline-block;
     margin-bottom: 16px;
 }
@@ -396,13 +395,9 @@ address {
 .footer-text {
     color: #F4F4FD;
     font-size: 16px;
-    font-weight: 400;
     letter-spacing: 0.02em;
     line-height: 1.5;
-    font-family: 'Raleway', sans-serif;
 }
 .footer-text{
-    display: block;
     width: 264px;
-    margin-left:156px;
 }
